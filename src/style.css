@@ -1,0 +1,54 @@
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#search-container {
+  background-color: rgb(var(--v-theme-surface));
+  border: 1px solid rgb(var(--v-theme-border));
+  margin-bottom: 16px;
+}
+
+.ag-root-wrapper {
+  border-radius: 0px !important;
+  border: 1px solid rgb(var(--v-theme-border)) !important;
+  background: rgb(var(--v-theme-surface)) !important;
+}
+
+.v-container{
+  max-width: 100%;
+}
+
+.v-btn {
+  height: 48px;
+}
+
+.v-col {
+  min-width: 200px;
+}
+
+.v-row {
+  flex-wrap: nowrap;
+}
+
+.v-label {
+  color: rgb(var(--v-theme-accent));
+  opacity: 1;
+}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  src: url('@/assets/fonts/NanumGothic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  src: url('@/assets/fonts/NanumGothicBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
